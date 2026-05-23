@@ -1,7 +1,7 @@
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-DATA_PATH = os.path.join(BASE_DIR, "data", "pedro.campos", "magic04.data")
+DATA_PATH = os.path.join(BASE_DIR, "data", "pedro.campos", "telescope.csv")
 
 RANDOM_SEED = 0
 NUM_PCA_COMPONENTS = 6
