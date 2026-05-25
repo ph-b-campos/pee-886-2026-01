@@ -42,7 +42,7 @@ class MagicGammaDataModule(L.LightningDataModule):
             self.train_dataset, 
             batch_size=self.batch_size, 
             shuffle=True, 
-            num_workers=2, 
+            num_workers=1, 
             pin_memory=False
         )
 
@@ -51,6 +51,6 @@ class MagicGammaDataModule(L.LightningDataModule):
             self.val_dataset, 
             batch_size=self.batch_size, 
             shuffle=False, 
-            num_workers=2, 
+            num_workers=1, 
             pin_memory=False
         )

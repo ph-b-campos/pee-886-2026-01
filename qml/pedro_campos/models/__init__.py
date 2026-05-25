@@ -1,4 +1,4 @@
-from .classical_mlp import Classifier
-from .quantum_ansatz import QuantumClassifier
+from .classic import Classifier
+from .quantum import QuantumClassifier
 
 __all__ = ["Classifier", "QuantumClassifier"]

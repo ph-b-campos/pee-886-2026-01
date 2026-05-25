@@ -24,3 +24,4 @@ quimb
 pylatexenc
 pennylane-qiskit
 kahypar
+optuna

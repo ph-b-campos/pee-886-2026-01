@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/scripts/pedro_campos/run_experiment.py", line 11, in <module>
+    from qml.pedro_campos.trainer.hyper_tuner import objective_classical, objective_quantum
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/qml/__init__.py", line 101, in <module>
+    from . import pedro_campos
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/qml/pedro_campos/__init__.py", line 11, in <module>
+    from . import trainer
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/qml/pedro_campos/trainer/__init__.py", line 1, in <module>
+    from .lightning import MagicGammaModel
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/qml/pedro_campos/trainer/lightning.py", line 4, in <module>
+    import torchmetricstorchmetrics.classification as tm_class
+ModuleNotFoundError: No module named 'torchmetricstorchmetrics'

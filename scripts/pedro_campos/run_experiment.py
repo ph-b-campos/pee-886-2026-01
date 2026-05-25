@@ -11,7 +11,7 @@ from data.pedro_campos.config import DATA_PATH, RANDOM_SEED
 from qml.pedro_campos.trainer.hyper_tuner import objective_classical, objective_quantum
 
 def main():
-    df = pd.read_csv(DATA_PATH, header=None) 
+    df = pd.read_csv(DATA_PATH) 
     
     X = df.iloc[:, :-1]
     y = df.iloc[:, -1].map({'g': 1, 'h': 0})
@@ -23,7 +23,7 @@ def main():
     skf = StratifiedKFold(n_splits=10, shuffle=True, random_state=RANDOM_SEED)
 
     db_path = "sqlite:///data/pedro_campos/optuna_results.db"
-    
+    """
     study_classic = optuna.create_study(
         direction="maximize", 
         study_name="MLP_Baseline",
@@ -34,7 +34,7 @@ def main():
         lambda trial: objective_classical(trial, X_train, y_train, skf), 
         n_trials=30
     )
-
+    """
     study_quantum = optuna.create_study(
         direction="maximize", 
         study_name="QNN_Ansatz",

@@ -26,10 +26,10 @@ def objective_classical(trial, X_train, y_train, skf):
             max_epochs=50, 
             accelerator="cpu",
             devices=1,
-            enable_model_summary=False,
+            enable_model_summary=True,
             logger=False, 
             enable_checkpointing=False,
-            enable_progress_bar=False,
+            enable_progress_bar=True,
             callbacks=[early_stop]
         )
         
@@ -56,10 +56,10 @@ def objective_quantum(trial, X_train, y_train, skf):
             max_epochs=50,
             accelerator="cpu",
             devices=1,
-            enable_model_summary=False,
+            enable_model_summary=True,
             logger=False, 
             enable_checkpointing=False,
-            enable_progress_bar=False,
+            enable_progress_bar=True,
             callbacks=[early_stop]
         )
         

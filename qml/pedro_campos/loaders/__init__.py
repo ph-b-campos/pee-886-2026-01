@@ -1,3 +1,3 @@
-from .magic_data import MagicGammaDataModule
+from .data_loader import MagicGammaDataModule
 
 __all__ = ["MagicGammaDataModule"]

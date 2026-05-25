@@ -1,0 +1,1600 @@
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 7/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.78it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 12/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.58it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 12/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.24it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 9/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.43it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 6/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.31it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 11/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.42it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.21it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 9/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.28it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 13/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:04 • 0:00:00 25.86it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 16/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.09it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     18 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 18                                                            
+Non-trainable params: 0                                                         
+Total params: 18                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 8/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:05 • 0:00:00 24.43it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     18 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 18                                                            
+Non-trainable params: 0                                                         
+Total params: 18                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 6/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:05 • 0:00:00 24.58it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     18 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 18                                                            
+Non-trainable params: 0                                                         
+Total params: 18                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 8/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:05 • 0:00:00 24.59it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     18 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 18                                                            
+Non-trainable params: 0                                                         
+Total params: 18                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 9/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:05 • 0:00:00 24.30it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     18 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 18                                                            
+Non-trainable params: 0                                                         
+Total params: 18                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 6/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:05 • 0:00:00 24.45it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     18 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 18                                                            
+Non-trainable params: 0                                                         
+Total params: 18                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 8/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:05 • 0:00:00 24.36it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     18 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 18                                                            
+Non-trainable params: 0                                                         
+Total params: 18                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 14/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:05 • 0:00:00 22.76it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     18 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 18                                                            
+Non-trainable params: 0                                                         
+Total params: 18                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 10/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:05 • 0:00:00 24.50it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     18 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 18                                                            
+Non-trainable params: 0                                                         
+Total params: 18                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 12/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:05 • 0:00:00 24.54it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     18 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 18                                                            
+Non-trainable params: 0                                                         
+Total params: 18                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 6/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:04 • 0:00:00 24.65it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 10/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.91it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 20.02it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 11/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.94it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.87it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 9/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.90it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.94it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.94it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 6/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.96it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 13/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.90it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.91it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 7/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.05it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 10/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.45it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 7/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.49it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.52it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 9/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.38it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.38it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 6/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.37it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 13/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.41it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.17it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 7/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.41it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 16/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.27it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 17/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.38it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 13/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.22it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 20/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.34it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 12/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.34it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 12/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.46it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 14/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.20it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 24/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:04 • 0:00:00 27.81it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 21/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.17it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 7/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.36it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 24/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.80it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 10/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 47.12it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 12/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.95it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 14/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 47.54it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 15/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 47.13it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 7/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.93it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 13/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 47.03it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 13/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 47.00it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 16/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.94it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 23/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.93it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 13/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.30it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 7/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 31.96it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 8/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.12it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 12/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.19it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 9/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.21it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 16/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:04 • 0:00:00 25.17it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 11/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.05it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 18/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.12it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 9/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.05it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     12 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 12                                                            
+Non-trainable params: 0                                                         
+Total params: 12                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 6/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:03 • 0:00:00 32.31it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.93it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.88it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.92it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 10/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.85it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 20.01it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 20.03it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 7/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.92it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.89it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.95it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 10/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.87it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 5/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.87it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 6/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.91it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 7/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.70it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 8/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.83it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 9/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.92it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 16/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.74it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 7/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.89it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 14/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.90it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 6/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 19.99it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │     24 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 24                                                            
+Non-trainable params: 0                                                         
+Total params: 24                                                                
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 11/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:06 • 0:00:00 18.62it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 39/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.32it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 12/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.50it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 9/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.26it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 31/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.21it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 27/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.56it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 11/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.30it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 10/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.99it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 14/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.69it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 12/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.40it/s 
+┏━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name      ┃ Type              ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model     │ QuantumClassifier │      6 │ train │     0 │
+│ 1 │ criterion │ BCEWithLogitsLoss │      0 │ train │     0 │
+│ 2 │ auroc     │ BinaryAUROC       │      0 │ train │     0 │
+│ 3 │ f1        │ BinaryF1Score     │      0 │ train │     0 │
+└───┴───────────┴───────────────────┴────────┴───────┴───────┘
+Trainable params: 6                                                             
+Non-trainable params: 0                                                         
+Total params: 6                                                                 
+Total estimated model params size (MB): 0.000                                   
+Modules in train mode: 5                                                        
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Epoch 16/49 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121/121 0:00:02 • 0:00:00 46.52it/s 

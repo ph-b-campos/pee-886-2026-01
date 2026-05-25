@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/scripts/pedro_campos/run_experiment.py", line 11, in <module>
+    from qml.pedro_campos.trainer.hyper_tuner import objective_classical, objective_quantum
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/qml/__init__.py", line 101, in <module>
+    from . import pedro_campos
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/qml/pedro_campos/__init__.py", line 3, in <module>
+    from . import loaders
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/qml/pedro_campos/loaders/__init__.py", line 1, in <module>
+    from .data_loader import MagicGammaDataModule
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/qml/pedro_campos/loaders/data_loader.py", line 1, in <module>
+    import pytorch_lightning as L
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/__init__.py", line 27, in <module>
+    from pytorch_lightning.callbacks import Callback  # noqa: E402
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/callbacks/__init__.py", line 14, in <module>
+    from pytorch_lightning.callbacks.batch_size_finder import BatchSizeFinder
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/callbacks/batch_size_finder.py", line 26, in <module>
+    from pytorch_lightning.callbacks.callback import Callback
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/callbacks/callback.py", line 22, in <module>
+    from pytorch_lightning.utilities.types import STEP_OUTPUT
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/utilities/types.py", line 36, in <module>
+    from torchmetrics import Metric
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/__init__.py", line 37, in <module>
+    from torchmetrics import functional  # noqa: E402
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/functional/__init__.py", line 56, in <module>
+    from torchmetrics.functional.image._deprecated import (
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/functional/image/__init__.py", line 14, in <module>
+    from torchmetrics.functional.image.arniqa import arniqa
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/functional/image/arniqa.py", line 31, in <module>
+    from torchvision import transforms
+  File "/home/pedro.campos/.local/lib/python3.10/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+  File "/home/pedro.campos/.local/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 26, in <module>
+    def meta_roi_align(input, rois, spatial_scale, pooled_height, pooled_width, sampling_ratio, aligned):
+  File "/home/pedro.campos/.local/lib/python3.10/site-packages/torchvision/_meta_registrations.py", line 18, in wrapper
+    if torchvision.extension._has_ops():
+AttributeError: partially initialized module 'torchvision' has no attribute 'extension' (most likely due to a circular import)

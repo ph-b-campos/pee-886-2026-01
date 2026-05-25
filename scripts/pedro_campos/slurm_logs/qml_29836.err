@@ -1,0 +1,124 @@
+[I 2026-05-23 20:19:27,872] Using an existing study with name 'MLP_Baseline' instead of creating a new one.
+/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python scripts/pedro_campos/run_experiment.py ...
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torch/utils/data/dataloader.py:424: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  self.check_worker_number_rationality()
+/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torch/utils/data/dataloader.py:430: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  self.check_worker_number_rationality()
+[W 2026-05-23 20:19:29,653] Trial 1 failed with parameters: {'n_layers': 1, 'n_neurons': 16, 'lr': 0.0007224485716195672} because of the following error: RuntimeError('Predictions and targets are expected to have the same shape, but got torch.Size([1712, 1]) and torch.Size([1712]).').
+Traceback (most recent call last):
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/scripts/pedro_campos/run_experiment.py", line 34, in <lambda>
+    lambda trial: objective_classical(trial, X_train, y_train, skf),
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/qml/pedro_campos/trainer/hyper_tuner.py", line 36, in objective_classical
+    trainer.fit(l_model, data)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 584, in fit
+    call._call_and_handle_interrupt(
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py", line 49, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 630, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path, weights_only=weights_only)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1079, in _run
+    results = self._run_stage()
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1121, in _run_stage
+    self._run_sanity_check()
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1150, in _run_sanity_check
+    val_loop.run()
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/loops/utilities.py", line 179, in _decorator
+    return loop_run(self, *args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/loops/evaluation_loop.py", line 146, in run
+    self._evaluation_step(batch, batch_idx, dataloader_idx, dataloader_iter)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/loops/evaluation_loop.py", line 441, in _evaluation_step
+    output = call._call_strategy_hook(trainer, hook_name, *step_args)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py", line 329, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py", line 412, in validation_step
+    return self.lightning_module.validation_step(*args, **kwargs)
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/qml/pedro_campos/trainer/lightning.py", line 32, in validation_step
+    f1_val = self.f1(preds_prob, y)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/metric.py", line 315, in forward
+    self._forward_cache = self._forward_reduce_state_update(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/metric.py", line 384, in _forward_reduce_state_update
+    self.update(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/metric.py", line 559, in wrapped_func
+    raise err
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/metric.py", line 549, in wrapped_func
+    update(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/classification/stat_scores.py", line 187, in update
+    _binary_stat_scores_tensor_validation(preds, target, self.multidim_average, self.ignore_index)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/functional/classification/stat_scores.py", line 68, in _binary_stat_scores_tensor_validation
+    _check_same_shape(preds, target)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/utilities/checks.py", line 39, in _check_same_shape
+    raise RuntimeError(
+RuntimeError: Predictions and targets are expected to have the same shape, but got torch.Size([1712, 1]) and torch.Size([1712]).
+[W 2026-05-23 20:19:29,754] Trial 1 failed with value None.
+Traceback (most recent call last):
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/scripts/pedro_campos/run_experiment.py", line 51, in <module>
+    main()
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/scripts/pedro_campos/run_experiment.py", line 33, in main
+    study_classic.optimize(
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/optuna/study/study.py", line 490, in optimize
+    _optimize(
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/optuna/study/_optimize.py", line 68, in _optimize
+    _optimize_sequential(
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/optuna/study/_optimize.py", line 165, in _optimize_sequential
+    frozen_trial_id = _run_trial(study, func, catch)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/optuna/study/_optimize.py", line 263, in _run_trial
+    raise func_err
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/optuna/study/_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/scripts/pedro_campos/run_experiment.py", line 34, in <lambda>
+    lambda trial: objective_classical(trial, X_train, y_train, skf),
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/qml/pedro_campos/trainer/hyper_tuner.py", line 36, in objective_classical
+    trainer.fit(l_model, data)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 584, in fit
+    call._call_and_handle_interrupt(
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py", line 49, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 630, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path, weights_only=weights_only)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1079, in _run
+    results = self._run_stage()
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1121, in _run_stage
+    self._run_sanity_check()
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1150, in _run_sanity_check
+    val_loop.run()
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/loops/utilities.py", line 179, in _decorator
+    return loop_run(self, *args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/loops/evaluation_loop.py", line 146, in run
+    self._evaluation_step(batch, batch_idx, dataloader_idx, dataloader_iter)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/loops/evaluation_loop.py", line 441, in _evaluation_step
+    output = call._call_strategy_hook(trainer, hook_name, *step_args)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py", line 329, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py", line 412, in validation_step
+    return self.lightning_module.validation_step(*args, **kwargs)
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/qml/pedro_campos/trainer/lightning.py", line 32, in validation_step
+    f1_val = self.f1(preds_prob, y)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/metric.py", line 315, in forward
+    self._forward_cache = self._forward_reduce_state_update(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/metric.py", line 384, in _forward_reduce_state_update
+    self.update(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/metric.py", line 559, in wrapped_func
+    raise err
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/metric.py", line 549, in wrapped_func
+    update(*args, **kwargs)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/classification/stat_scores.py", line 187, in update
+    _binary_stat_scores_tensor_validation(preds, target, self.multidim_average, self.ignore_index)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/functional/classification/stat_scores.py", line 68, in _binary_stat_scores_tensor_validation
+    _check_same_shape(preds, target)
+  File "/home/pedro.campos/miniconda3/envs/qml-env/lib/python3.10/site-packages/torchmetrics/utilities/checks.py", line 39, in _check_same_shape
+    raise RuntimeError(
+RuntimeError: Predictions and targets are expected to have the same shape, but got torch.Size([1712, 1]) and torch.Size([1712]).

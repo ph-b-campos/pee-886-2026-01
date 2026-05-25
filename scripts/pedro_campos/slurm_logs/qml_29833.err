@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/scripts/pedro_campos/run_experiment.py", line 51, in <module>
+    main()
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/scripts/pedro_campos/run_experiment.py", line 19, in main
+    X_train, X_test, y_train, y_test = train_test_split(
+  File "/home/pedro.campos/.local/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+  File "/home/pedro.campos/.local/lib/python3.10/site-packages/sklearn/model_selection/_split.py", line 2940, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+  File "/home/pedro.campos/.local/lib/python3.10/site-packages/sklearn/model_selection/_split.py", line 2429, in split
+    y = check_array(y, input_name="y", ensure_2d=False, dtype=None)
+  File "/home/pedro.campos/.local/lib/python3.10/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+  File "/home/pedro.campos/.local/lib/python3.10/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/home/pedro.campos/.local/lib/python3.10/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
