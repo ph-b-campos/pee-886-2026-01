@@ -9,8 +9,8 @@ from ..models.quantum import QuantumClassifier
 from .lightning import MagicGammaModel
 
 def objective_classical(trial, X_train, y_train, skf):
-    n_layers = trial.suggest_int("n_layers", 1, 3)
-    n_neurons = trial.suggest_categorical("n_neurons", [4, 8, 16, 32])
+    n_layers = trial.suggest_int("n_layers", 1, 5)
+    n_neurons = 6  
     lr = trial.suggest_float("lr", 1e-4, 1e-2, log=True)
     
     fold_scores = []
@@ -24,12 +24,12 @@ def objective_classical(trial, X_train, y_train, skf):
         
         trainer = L.Trainer(
             max_epochs=50, 
-            accelerator="cpu",
+            accelerator="auto", 
             devices=1,
-            enable_model_summary=True,
+            enable_model_summary=False, 
             logger=False, 
             enable_checkpointing=False,
-            enable_progress_bar=True,
+            enable_progress_bar=False,  
             callbacks=[early_stop]
         )
         
@@ -47,19 +47,20 @@ def objective_quantum(trial, X_train, y_train, skf):
     
     for fold, (train_index, val_index) in enumerate(skf.split(X_train, y_train)):
         data = MagicGammaDataModule(X_train, y_train, train_index, val_index, batch_size=128)
-        model = QuantumClassifier(n_qubits=6, n_layers=n_layers)
+        
+        model = QuantumClassifier(n_qubits=X_train.shape[1], n_layers=n_layers) 
         l_model = MagicGammaModel(model, lr)
         
         early_stop = EarlyStopping(monitor="val_auroc", patience=5, mode="max")
         
         trainer = L.Trainer(
             max_epochs=50,
-            accelerator="cpu",
+            accelerator="auto", 
             devices=1,
-            enable_model_summary=True,
+            enable_model_summary=False, 
             logger=False, 
             enable_checkpointing=False,
-            enable_progress_bar=True,
+            enable_progress_bar=False,  
             callbacks=[early_stop]
         )
         
@@ -68,3 +69,11 @@ def objective_quantum(trial, X_train, y_train, skf):
         fold_scores.append(score)
         
     return np.mean(fold_scores)
+
+def get_best_hyperparameters(db_path: str, study_name: str):
+    """
+    Conecta-se ao banco de dados do Optuna e extrai os melhores hiperparâmetros de um estudo.
+    """
+    study = optuna.load_study(study_name=study_name, storage=db_path)
+    params = study.best_params
+    return params
