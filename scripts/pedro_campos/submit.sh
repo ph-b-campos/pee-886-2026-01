@@ -9,5 +9,5 @@ conda activate qml-env
 
 cd ~/Desktop/QML/pee-886-2026-01
 
-# Força o uso do python que está DENTRO do ambiente qml-env
-/home/pedro.campos/miniconda3/envs/qml-env/bin/python scripts/pedro_campos/run_experiment.py
+# Forï¿½a o uso do python que estï¿½ DENTRO do ambiente qml-env
+/home/pedro.campos/miniconda3/envs/qml-env/bin/python scripts/pedro_campos/hyperparameter_search.py
