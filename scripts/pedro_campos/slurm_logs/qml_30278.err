@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/scripts/pedro_campos/train_eval.py", line 77, in <module>
+    main()
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/scripts/pedro_campos/train_eval.py", line 29, in main
+    kfold_eval(
+  File "/home/pedro.campos/Desktop/QML/pee-886-2026-01/qml/pedro_campos/evaluation/eval.py", line 28, in kfold_eval
+    base_model = base_model_builder_fn(**params_copy)
+TypeError: Classifier.__init__() missing 1 required positional argument: 'n_neurons'
