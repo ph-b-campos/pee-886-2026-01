@@ -16,6 +16,9 @@ class QuantumClassifier(nn.Module):
         super().__init__()
         weight_shapes = {"weights": (n_layers, n_qubits)}
         self.qlayer = qml.qnn.TorchLayer(quantum_circuit, weight_shapes)
+        self.scale_shift = nn.Linear(1, 1)
 
     def forward(self, x):
-        return self.qlayer(x)
+        q_out = self.qlayer(x).unsqueeze(-1) 
+        logits = self.scale_shift(q_out)
+        return logits.squeeze(-1)

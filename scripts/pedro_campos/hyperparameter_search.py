@@ -21,7 +21,7 @@ def main():
     )
     
     skf = StratifiedKFold(n_splits=10, shuffle=True, random_state=RANDOM_SEED)
-    
+    """
     study_classic = optuna.create_study(
         direction="maximize", 
         study_name="MLP_Baseline",
@@ -43,16 +43,16 @@ def main():
         lambda trial: objective_classical_restricted(trial, X_train, y_train, skf), 
         n_trials=10
     )
-    
+    """
     study_quantum = optuna.create_study(
         direction="maximize", 
-        study_name="QNN_Ansatz",
+        study_name="QNN_Ansatz_FIXED",
         storage=DB_PATH,
         load_if_exists=True 
     )
     study_quantum.optimize(
         lambda trial: objective_quantum(trial, X_train, y_train, skf), 
-        n_trials=10 
+        n_trials=15 
     )
 
 if __name__ == "__main__":

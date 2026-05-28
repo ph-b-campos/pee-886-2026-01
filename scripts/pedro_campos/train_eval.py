@@ -20,7 +20,7 @@ def main():
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.1, stratify=y, random_state=RANDOM_SEED
     )
-    
+    """
     best_params_mlp = get_best_hyperparameters(db_path=DB_PATH, study_name="MLP_Baseline")
     
     kfold_eval(
@@ -53,22 +53,22 @@ def main():
         base_model_builder_fn=Classifier, 
         best_params=best_params_mlp_restricted, train_name="mlp_restricted"
     )
-
-    best_params_qnn = get_best_hyperparameters(db_path=DB_PATH, study_name="QNN_Ansatz")
+    """
+    best_params_qnn = get_best_hyperparameters(db_path=DB_PATH, study_name="QNN_Ansatz_FIXED")
     best_params_qnn['n_qubits'] = NUM_PCA_COMPONENTS
 
     kfold_eval(
         X_df=X_train, y_series=y_train, 
         base_model_builder_fn=QuantumClassifier, 
         best_params=best_params_qnn, 
-        n_splits=10, train_name="qnn_ansatz"
+        n_splits=10, train_name="qnn_ansatz_fixed"
     )
     
     test_eval(
         X_tr_df=X_train, y_tr_series=y_train, 
         X_te_df=X_test, y_te_series=y_test, 
         base_model_builder_fn=QuantumClassifier, 
-        best_params=best_params_qnn, train_name="qnn_ansatz"
+        best_params=best_params_qnn, train_name="qnn_ansatz_fixed"
     )
 
 if __name__ == "__main__":
